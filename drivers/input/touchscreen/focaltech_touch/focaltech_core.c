@@ -1251,7 +1251,7 @@ static int fts_ts_probe(struct i2c_client *client, const struct i2c_device_id *i
     struct fts_ts_data *data;
     struct input_dev *input_dev;
     int err;
-    printk(KERN_ERR "[FTS] Entet %s\n", __func__);
+    printk(KERN_ERR "[FTS] Enter %s\n", __func__);
 
     FTS_FUNC_ENTER();
     /* 1. Get Platform data */
@@ -1525,7 +1525,7 @@ static int fts_ts_suspend(struct device *dev)
 {
     struct fts_ts_data *data = dev_get_drvdata(dev);
     int retval = 0;
-    printk(KERN_ERR "[FTS] Entet %s\n", __func__);
+    printk(KERN_ERR "[FTS] Enter %s\n", __func__);
     FTS_FUNC_ENTER();
     if (data->suspended)
     {
@@ -1599,7 +1599,7 @@ EXPORT_SYMBOL(fts_tp_lcm_suspend);
 static int fts_ts_resume(struct device *dev)
 {
     struct fts_ts_data *data = dev_get_drvdata(dev);
-    printk(KERN_ERR "[FTS] Entet %s\n", __func__);
+    printk(KERN_ERR "[FTS] Enter %s\n", __func__);
     FTS_FUNC_ENTER();
     if (!data->suspended)
     {
