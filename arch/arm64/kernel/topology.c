@@ -403,7 +403,7 @@ const struct sched_group_energy * const cpu_core_energy(int cpu)
 	struct sched_group_energy *sge = sge_array[cpu][SD_LEVEL0];
 
 	if (!sge) {
-		pr_warn("Invalid sched_group_energy for CPU%d\n", cpu);
+		//pr_warn("Invalid sched_group_energy for CPU%d\n", cpu);
 		return NULL;
 	}
 
