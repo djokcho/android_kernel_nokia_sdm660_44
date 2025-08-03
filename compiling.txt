@@ -1,0 +1,3 @@
+make ARCH=arm64 nokia_defconfig
+
+make ARCH=arm64 CROSS_COMPILE=/home/julian/Downloads/gcc-arm-8.2-2019.01-x86_64-aarch64-linux-gnu/bin/aarch64-linux-gnu- CROSS_COMPILE_ARM32=/run/media/julian/762f771f-ef43-4854-ab49-1b09a204f60e/arm-linux-androideabi-5.1/bin/arm-eabi- -j12
