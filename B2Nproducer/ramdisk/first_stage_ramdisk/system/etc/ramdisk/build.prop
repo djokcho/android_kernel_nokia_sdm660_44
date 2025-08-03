@@ -1,0 +1,22 @@
+####################################
+# from generate_common_build_props
+# These properties identify this partition image.
+####################################
+ro.product.bootimage.brand=Nokia
+ro.product.bootimage.device=B2N
+ro.product.bootimage.manufacturer=HMD Global
+ro.product.bootimage.model=Nokia 7 plus
+ro.product.bootimage.name=B2N_sprout
+ro.bootimage.build.date=Wed Jul 30 14:35:29 UTC 2025
+ro.bootimage.build.date.utc=1753886129
+ro.bootimage.build.fingerprint=Nokia/Onyx_00WW/B2N_sprout:10/QKQ1.190828.002/00WW_4_16B:user/release-keys
+ro.bootimage.build.id=BP1A.250505.005
+ro.bootimage.build.tags=release-keys
+ro.bootimage.build.type=userdebug
+ro.bootimage.build.version.incremental=3ce7beacfb
+ro.bootimage.build.version.release=15
+ro.bootimage.build.version.release_or_codename=15
+ro.bootimage.build.version.sdk=35
+ro.bootimage.build.version.sdk_minor=0
+# end of file
+
