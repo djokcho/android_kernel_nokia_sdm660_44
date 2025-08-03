@@ -1,0 +1,15 @@
+!<thin>
+//                                              116       `
+ipa_api.o/
+ipa_rm.o/
+ipa_rm_dependency_graph.o/
+ipa_rm_peers_list.o/
+ipa_rm_resource.o/
+ipa_rm_inactivity_timer.o/
+
+/0              0           0     0     644     277168    `
+/11             0           0     0     644     90024     `
+/21             0           0     0     644     11560     `
+/48             0           0     0     644     7464      `
+/69             0           0     0     644     44568     `
+/88             0           0     0     644     17384     `
